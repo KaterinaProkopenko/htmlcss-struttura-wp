@@ -44,6 +44,12 @@ main {
     width: 100%;
 }
 
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .mini-menu, .mini-section {
     width: 200px;
 }
@@ -60,7 +66,7 @@ main {
 */
 
 .height-bg {
-    height: calc(270px - 66px);
+    height: 204px;
     background-color: rgb(147, 196, 196);
     float: left;
 }
